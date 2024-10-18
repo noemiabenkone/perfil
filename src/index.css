@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0 auto;
+  border: 1px solid ;
+  padding: 10px;
+  background-color: #f9f9f9;
+}
+.content {
+  display: flex;
+  align-items: flex-start;
+  max-width: 600px;
+  background-color: #faeeee;
+}
+.perfil {
+  margin-bottom: 15px;;
+  display: flex;
+  align-items: center
+ 
+}
+.foto-perfil {
+width: 70px;
+height: 70px;
+border-radius: 50%;
+margin-right: 10px;
+}
+.nome-perfil{
+  font-size: 16px;
+  font-weight: bold;
+}
+.post {
+  margin-top: 10px ;
+
+}
+.legenda-post {
+ margin-top: 10px;
+ font-size: 14px;
+ color: #333;
+ white-space: normal;
+
+}
+.foto-post {
+  width: 50%;
+  height: auto;
+  
+}
